@@ -1,2 +1,5 @@
+modules/datasets/
 datasets
 venv
+.venv/
+.idea/
