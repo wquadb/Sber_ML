@@ -27,7 +27,6 @@ def set_seed(seed: int = 42) -> None:
     random.seed(seed)
     torch.manual_seed(seed)
     # torch.cuda.manual_seed(seed) cuda seed
-    # Set a fixed value for the hash seed
     os.environ["PYTHONHASHSEED"] = str(seed)
     print(f"Random seed set as {seed}\n")
 
