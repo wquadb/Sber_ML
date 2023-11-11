@@ -4,6 +4,7 @@ scikit-learn==1.3.2
 torch==2.1.0+cu121 #cpu for mac
 torchaudio==2.1.0+cu121 #cpu for mac
 torchvision==0.16.0+cu121 #cpu for mac
+tqdm==4.66.1
 scikit-learn==1.3.2
 scipy==1.11.3
 matplotlib==3.8.1
@@ -17,6 +18,7 @@ Pillow==9.3.0
 # if code isn't running:
 certifi==2022.12.7
 charset-normalizer==2.1.1
+colorama==0.4.6
 contourpy==1.2.0
 cycler==0.12.1
 filelock==3.9.0
